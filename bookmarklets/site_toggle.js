@@ -28,4 +28,8 @@ switch (current_url) {
     break;
 }
 
-window.location = protocol + new_url + uri + "?" + params;
+if (params == "") {
+    window.location = protocol + new_url + uri;
+} else {
+    window.location = protocol + new_url + uri + "?" + params;
+}
