@@ -20,6 +20,12 @@ switch (current_url) {
     case 'www.tracksandtires.com':
         new_url = "//www.staging.tracksandtires.com";
     break;
+    case 'www.staging.mwedealers.com':
+        new_url = "//www.mwedealers.com";
+    break;
+    case 'www.mwedealers.com':
+        new_url = "//www.staging.mwedealers.com";
+    break;
 }
 
 window.location = protocol + new_url + uri + "?" + params;
