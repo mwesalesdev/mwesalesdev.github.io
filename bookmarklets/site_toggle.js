@@ -26,6 +26,12 @@ switch (current_url) {
     case 'www.mwedealers.com':
         new_url = "//www.staging.mwedealers.com";
     break;
+    case 'www.staging.digtnt.com':
+        new_url = "//www.digtnt.com";
+    break;
+    case 'www.digtnt.com':
+        new_url = "//www.staging.digtnt.com";
+    break;
 }
 
 if (params == "") {
