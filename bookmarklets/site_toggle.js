@@ -32,6 +32,18 @@ switch (current_url) {
     case 'www.digtnt.com':
         new_url = "//www.staging.digtnt.com";
     break;
+    case 'mweparts.local:32770':
+        new_url = "//mweparts.com";
+    break;
+    case 'mweparts.com':
+        new_url = "//mweparts.local:32770";
+    break;
+    case 'mwetires.local:32770':
+        new_url = "//mwetires.com";
+    break;
+    case 'mwetires.com':
+        new_url = "//mwetires.local:32770";
+    break;
 }
 
 if (params == "") {
